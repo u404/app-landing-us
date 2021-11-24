@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #111111 url(https://g.smartcinemausa.com/images/e52ac3fa399c405bbb15435e69e6d2bf-500-997.png) no-repeat
+    center top;
+  background-size: 100% auto;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma,
+    Simsun, sans-serif;
+}
+
+body,
+dd,
+dl,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+  font-size: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+b,
+em {
+  font-style: normal;
+  font-weight: normal;
+}

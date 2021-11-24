@@ -1,0 +1,27 @@
+{
+  "name": "app-landing-us",
+  "version": "0.5.2",
+  "private": true,
+  "dependencies": {
+    "@sc/lib-axios": "latest",
+    "@sc/lib-env": "latest",
+    "@sc/lib-i18n": "latest",
+    "url": "^0.11.0",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@sc/cli-plugin-babel": "latest",
+    "@sc/cli-plugin-eslint": "latest",
+    "@sc/cli-service": "latest",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "scripts": {
+    "lint": "vue-cli-service lint"
+  }
+}

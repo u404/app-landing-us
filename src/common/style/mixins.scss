@@ -1,0 +1,45 @@
+$px-75: 75;
+
+$px-375: 37.5;
+
+@function getRem($n) {
+   @return ($n / $px-75) * 1rem;
+}
+
+@function getRem375($n) {
+   @return ($n / $px-375) * 1rem;
+}
+
+@function rem($n) {
+  @return ($n / $px-375) * 1rem;
+}
+
+@mixin border-top {
+  &::before {
+    content: "";
+    border-top: 1px solid #E3E3E3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: scaleY(.5);
+  }
+}
+
+@mixin border-bottom {
+  &::after {
+    content: "";
+    border-bottom: 1px solid #E3E3E3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleY(.5);
+  }
+}
+
+@mixin text-ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
